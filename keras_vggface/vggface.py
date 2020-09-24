@@ -6,6 +6,7 @@
 
 '''
 from __future__ import print_function
+import tensorflow.keras as keras
 from keras_vggface.models import RESNET50, VGG16, SENET50
 
 
