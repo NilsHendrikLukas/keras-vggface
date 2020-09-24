@@ -1,4 +1,4 @@
-'''VGGFace models for Keras.
+'''VGGFacemodels for Keras.
 
 # Notes:
 - Utility functions are modified versions of Keras functions [Keras](https://keras.io)
@@ -7,10 +7,10 @@
 
 
 
-import tensorflow.keras as keras
+import tensorflow
 import numpy as np
 from keras import backend as K
-from keras.utils.data_utils import get_file
+from tensorflow.keras.utils.data_utils import get_file
 
 V1_LABELS_PATH = 'https://github.com/rcmalli/keras-vggface/releases/download/v2.0/rcmalli_vggface_labels_v1.npy'
 V2_LABELS_PATH = 'https://github.com/rcmalli/keras-vggface/releases/download/v2.0/rcmalli_vggface_labels_v2.npy'

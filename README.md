@@ -47,8 +47,8 @@ vggface = VGGFace(model='senet50')
 - Convolution Features
 
     ```python
-    from keras.engine import  Model
-    from keras.layers import Input
+    from tensorflow.keras.engine import  Model
+    from tensorflow.keras.layers import Input
     from keras_vggface.vggface import VGGFace
 
     # Convolution Features
@@ -63,8 +63,8 @@ vggface = VGGFace(model='senet50')
 - Specific Layer Features
 
     ```python
-    from keras.engine import  Model
-    from keras.layers import Input
+    from tensorflow.keras.engine import  Model
+    from tensorflow.keras.layers import Input
     from keras_vggface.vggface import VGGFace
 
     # Layer Features
@@ -85,8 +85,8 @@ vggface = VGGFace(model='senet50')
 - VGG16
 
     ```python
-    from keras.engine import  Model
-    from keras.layers import Flatten, Dense, Input
+    from tensorflow.keras.engine import  Model
+    from tensorflow.keras.layers import Flatten, Dense, Input
     from keras_vggface.vggface import VGGFace
 
     #custom parameters
@@ -108,8 +108,8 @@ vggface = VGGFace(model='senet50')
 - RESNET50 or SENET50
 
     ```python
-    from keras.engine import  Model
-    from keras.layers import Flatten, Dense, Input
+    from tensorflow.keras.engine import  Model
+    from tensorflow.keras.layers import Flatten, Dense, Input
     from keras_vggface.vggface import VGGFace
 
     #custom parameters
@@ -135,7 +135,7 @@ vggface = VGGFace(model='senet50')
 
     ```python
     import numpy as np
-    from keras.preprocessing import image
+    from tensorflow.keras.preprocessing import image
     from keras_vggface.vggface import VGGFace
     from keras_vggface import utils
 

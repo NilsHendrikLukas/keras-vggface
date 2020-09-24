@@ -1,5 +1,5 @@
 import tensorflow.keras as keras
-from keras.utils import plot_model
+from tensorflow.keras.utils import plot_model
 from keras_vggface import VGGFace
 
 model = VGGFace(model='vgg16')

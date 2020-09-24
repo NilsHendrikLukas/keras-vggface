@@ -3,8 +3,8 @@
 
 ```python
 import tensorflow as tf
-import keras
-import keras_vggface
+import tensorflow.keras
+import tensorflow.keras_vggface
 
 print(tf.__version__)
 print(keras.__version__)
